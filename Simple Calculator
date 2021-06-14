@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+    <font color = "Blue" size = "20" >Calculator</font>
+        <header>
+            <img src="calculator.png" alt="calc" height="300" width="400" />
+            </header>
+            <form>
+        input1 <input type="number" name = "input1" required><br>
+        input2 <input type="number" name = "input2" required><br>
+        Select Operation <select name="operation" required>
+            <option type="text" value="Select..">Select..</option>
+            <option type= "text" value="ADD">ADD</option>
+            <option type = "text" value="SUBTRACT">SUBTRACT</option>
+            <option type = "text" value="MULTIPLY">MULTIPLY</option>
+            <option type = "text" value="DIVIDE">DIVIDE</option>
+        </select><br>
+        <input type="image" src="calc.png" alt="Calculation" name="submit" height="80" width="80"/> 
+        <input type="image" src="reset.png" alt="Submit" name="reset" height="80"  width="80"/>
+        </form>
+    </body>
+</html>
